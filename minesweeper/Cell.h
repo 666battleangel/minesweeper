@@ -9,13 +9,13 @@ class Cell {
 public:
 	int coordinates_X;
 	int coordinates_Y;
-	bool isOpened = false; 
+	bool isOpened = false;
 	char glyph = '_'; 
 
 	Cell(int x, int y);
-	Cell();
+	Cell() = default;
 
-	void open(); 
+	/*void open(); */
 };
 
 #endif

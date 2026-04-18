@@ -21,9 +21,21 @@
     <ClCompile Include="Cell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SafeCell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineCell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineCell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
